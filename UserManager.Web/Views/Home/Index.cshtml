@@ -1,0 +1,19 @@
+﻿@model UserManager.Web.ViewModels.UserFormViewModel
+
+@{
+    ViewData["Title"] = "Naslovnica";
+}
+
+<h4>Opis aplikacije</h4>
+<hr />
+<div class="container">
+    <p class="mb-2">
+        Aplikacija omogućuje kontrolirani upis osnovnih informacija o korisnicima.
+    </p>
+    <p class="mb-2">
+        Ujedno dohvaća detaljnije informacije o korisniku s vanjskog API-ja <a href="http://jsonplaceholder.typicode.com" target="_blank" rel="noopener noreferrer">JSONPlaceholder</a> ukoliko postoje.
+    </p>
+    <p class="mb-2">
+        Svaki upis se sprema u bazu podataka, a korisniku se šalje email s kompletnim informacijama.
+    </p>
+</div>
